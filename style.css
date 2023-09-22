@@ -36,10 +36,6 @@ body {
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     margin-bottom:5rem;
 }
-.side {
-    margin-left: 7vw;
-    margin-right: 7vw;
-}
 .card img {
     position: absolute;
     object-fit: cover;
@@ -59,7 +55,7 @@ body {
     font-weight: normal;
     text-transform: uppercase;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    font-size: 0.825vw;
+    font-size: 1.7vh
 }
 .card p, .card a {
     position: absolute;
@@ -71,13 +67,13 @@ body {
 }
 .card p {
     inset: auto auto 2.6vw 1.6vw;
-    font-size:  0.6vw;
+    font-size:  1.23636363636vh
 }
 .card a {
     inset: auto auto 1vw 1.6vw;
     color: inherit;
     text-decoration: none;
-    font-size: 0.6vw;
+    font-size: 1.23636363636vh
 }
 .card:hover h2 {
     inset: auto auto 7.3vw 1.6vw;

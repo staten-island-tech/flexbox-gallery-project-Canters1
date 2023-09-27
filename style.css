@@ -26,8 +26,8 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 .card {
-    width: 25vw;
-    height: 25vw;
+    width: 21vw;
+    height: 21vw;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -35,6 +35,8 @@ body {
     color: #f0f0f0;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
     margin-bottom:5rem;
+    transition: transform 0.3s ease-in-out;
+
 }
 .card img {
     position: absolute;
@@ -89,4 +91,35 @@ body {
 }
 .material-symbols-outlined {
     vertical-align: middle;
+}
+#MBDTF:hover {
+    transform: translateY(-10px);
+}
+
+#Heroes:hover {
+    transform: scale(0.9);
+}
+#Graduation:hover {
+    opacity:0;
+}
+#CMIYGL:hover{
+    transform: rotate(3600000000000deg)
+}
+#Graduation {
+    transition:opacity 0.3s ease-in-out
+}
+#BCI:hover {
+    transform: skew(15deg, 15deg);
+}
+#Limbo {
+    animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
 }
